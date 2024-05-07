@@ -1,7 +1,8 @@
 # TO DO app
 
 ### This is a ToDo app that records all the daily tasks. 
-In this app you can enter your task with deadlines and also the status.
+In this application you can register tasks with specific deadlines and also the status of them.
+This tasks are saved in DataBase(SQLite3). With the button "Sort by date", you can see the tasks in chronological order.
 
 #### GitHub url: 
 > https://github.com/sorinacizer/ToDo-app
