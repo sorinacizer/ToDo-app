@@ -402,8 +402,6 @@ class Task:
                                    id_user INTEGER,
                                    FOREIGN KEY(id_user) REFERENCES Users_Data (id_user));''')
 
-
-
         cur.execute('DELETE FROM Users_Tasks')
         cur.executemany(f'INSERT INTO Users_Tasks(task_name, deadline, status, id_user) VALUES(?, ?, ?, ?);', all_tasks)
 
